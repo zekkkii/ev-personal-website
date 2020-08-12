@@ -7,12 +7,19 @@ const deslizador = document.querySelector(".deslizador");
 const sideBar = document.querySelector(".sidebar");
 const boxFixed = document.querySelector(".box");
 const iconBox = document.querySelector(".fa-plus");
+const loader = document.querySelector(".loader-wrapper")
 
 window.onload = () => {
-    document.querySelector(".main-container").classList.remove("opacity");
-    document.querySelector(".ct-cube").classList.add("opacity");
+
+    loader.classList.add("opacity")
+    body.classList.remove('overflow-off')
+    body.classList.remove('opacity')
+
+    setTimeout(() => { loader.classList.add("d-none") }, 900)
+
 
 }
+
 
 function darkMode() {
 

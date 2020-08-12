@@ -49,20 +49,18 @@
 
 
 
-<body>
+<body class="overflow-off opacity">
 
-    <div class=" ct-cube  container-cube ">
-        <img class="rubik-cube" src="http://i.giphy.com/13Xkz5sLdjGiQw.gif">
 
-    </div>
     <!-- Add your site or application content here -->
 
 
-    <div class="main-container opacity ">
+    <div class="main-container  ">
+
         <div class="header">
             <nav class="navbar navbar-expand-lg fixed-top d-lg-flex  ">
                 <div class="d-flex"> <img class="logo" src="img/ev.png" alt="logo">
-                    <p class="text-white logo-text mt-3">Ezequiel Vasquez</p>
+                    <p class="d-none d-sm-block  text-white logo-text mt-3">Ezequiel Vasquez</p>
                 </div>
 
                 <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -98,7 +96,7 @@
                     <ul class="inconsolata">
                         <li>Español</li>
                         <li>Ingles</li>
-                        <li>Creol (Criollo Haitiano)</li>
+                        <li>Creole (Criollo Haitiano)</li>
                     </ul>
                     <h4 class="mb-3 krona">Estudios</h4>
                     <ul class="inconsolata">
@@ -141,7 +139,7 @@
 
                     <div class="text-center mt-4">
 
-                        <p class="text-box-fixed krona">También dale un vistazo a esto</p>
+                        <p class="text-box-fixed krona d-none d-sm-block">También dale un vistazo a esto</p>
                         <a href="https://github.com/zekkkii" target="_blank"><i class="fab fa-github"></i></a>
                         <a href="https://www.linkedin.com/in/ezequiel-vasquez-campusano-036a1a187/" target="_blank"><i class="fab fa-linkedin"></i></a>
                     </div>
@@ -157,35 +155,16 @@
 
         </div>
     </div>
-
+    <div class="loader-wrapper ">
+        <span class="loader"><span class="loader-inner"></span></span>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="js/vendor/modernizr-3.7.1.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script>
-        window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')
-    </script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
-    <!-- Latest compiled and minified JavaScript -->
 
-
-
-
-    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-    <script>
-        window.ga = function() {
-            ga.q.push(arguments)
-        };
-        ga.q = [];
-        ga.l = +new Date;
-        ga('create', 'UA-XXXXX-Y', 'auto');
-        ga('set', 'transport', 'beacon');
-        ga('send', 'pageview')
-    </script>
-    <script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
 
 </html>
